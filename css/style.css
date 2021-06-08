@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+
+
+/* BODY */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Barra de navegação */
+
+header, .navbar {
+  background: linear-gradient(to bottom right, #14004B, #310E43, #7F4937) fixed;
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  color:#fcf9f9;
+}
+
+#nav-brand:hover {
+  color: #fcf9f9;
+}
+
+
+.navbar-nav a{
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 35px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  float: right;
+
+}
+
+.navbar-nav a:hover{
+background-color: #F2484c;
+color: #fcf9f9;
+
+
+}
+
+img, #logo {
+    width: 170px;
+    margin-bottom: 6px;
+    margin-top: 1px;
+    margin-left: 15px;
+
+}
+
+
+.navbar-expand-lg .navbar .nav-link{
+   margin-top: auto;
+  
+}
+
+.navbar-toggler{
+  border:solid, 3px;
+  border-color:#fff;
+  margin-right: 20px;
+
+}
+.active{
+  background-color: #F2484c;
+}
+
+/* Cadastro */
+
+.cadastro {
+  color: #14004B;
+  text-align: center;
+}
+.tamanho {
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 10px;
+}
+.btncustomize {
+  display: block;
+  width: 40%;
+  color: #fcf9f9;
+  background-color: #ff464b;
+  border-color: #ff464b;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.btncustomize:hover {
+  opacity: 0.9;
+  color: #fcf9f9;
+}
+
+.back{
+  padding: 15px;
+}
+#retorno{
+  color: red;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Container */
+
+.container{
+  margin-top: 7%;
+}
+#enviar{
+  display: block;
+  width: 60%;
+  color: #fcf9f9;
+  background-color: #ff464b;
+  border-color: #ff464b;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+#desktop{
+  border-radius: 10px;
+  height: 350px;
+  width: 70px;
+  margin-right: 4em;
+  text-align: center;
+  color: #fcf9f9;
+  background-color: #14004B;
+
+}
+
+#vr{
+  border-radius: 10px;
+  height: 350px;
+  width: 70px;
+  margin-left: 4em;
+  text-align: center;
+  color: #fcf9f9;
+  background-color: #14004B;
+
+}
+
+#versao{
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 2em ;
+  
+}
+
+#desktop{
+  float: right;
+  margin-right: 10em;
+  width: 300px;
+  height: 400px;
+}
+#vr{
+  float: left;
+  margin-left: 10em;
+  width: 300px;
+  height: 400px;
+}
+
+#vr img, #desktop img{
+  width:200px;
+}
+
+#vr:hover, #desktop:hover{
+  border:solid 3px; 
+  border-color: #F2484c;
+  cursor: pointer;
+  border-spacing:5px;
+  
+}
+
+h1{
+  text-align: center;
+  color: #14004B;
+}
+
+/*ENDEREÇO*/
+#address{
+  background-color:#fcf9f9; 
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10%;
+  height: 490px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.form-address{
+  margin: auto;
+  text-align: center;
+}
+
+.fundo{
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  background-color: rgb(#fcf9f9,0,0); 
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 92vh;
+  margin-top: -15em;
+  
+}
+#tamanho{
+  width: 40%;
+  text-align: center;
+  padding: 5px;
+}
+#cadastro-btn{
+  background-color: #F2484c;
+  color: #fcf9f9;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+

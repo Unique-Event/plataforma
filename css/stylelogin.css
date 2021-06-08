@@ -1,0 +1,19 @@
+.conta {
+  color: #111112;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.coluna {
+  width: 10px;
+  border: 1px solid red;
+}
+.btncustomize {
+  display: block;
+  width: 50%;
+  color: #111112;
+  background-color: #ff464b;
+  border-color: #ff464b;
+  border-radius: 50px;
+  margin: 0 auto;
+}
