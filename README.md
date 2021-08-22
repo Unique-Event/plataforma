@@ -11,7 +11,7 @@ Plataforma em fase de testes e desenvolvimento.
 
 Objetivo prover um serviço Único e inovador em palestras virtuais. 
 
-                                                **** Construção ****
+                                           **** Construção ****
 
 
 
